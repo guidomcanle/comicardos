@@ -1,0 +1,38 @@
+h1{
+    color: $color-bordo-titulos;
+    margin-left: 2rem;
+}
+h2{
+    color: $color-bordo-titulos;
+    line-height: 6vh;
+}
+.article{
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem;
+    background-image: linear-gradient($color-amarillo-primario,$color-amarillo-secundario);
+    width: 50vw;
+    animation-name: aparece_principal;
+    animation-duration: 1.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .article__img--estilos{
+        height: 30rem;
+        width: auto;
+        border-radius:10px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .article__video--estilos{
+        height: 30rem;
+        width: auto;
+        border-radius:20px;
+    }
+    .article__text--estilos{
+        font-size: 2vh;
+        line-height: 2vh;
+        text-align: justify;
+        white-space: pre-line;
+    }
+}

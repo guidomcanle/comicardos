@@ -1,0 +1,162 @@
+/* variables*/
+
+$color-amarillo-primario:#FFBE01;
+$color-amarillo-secundario:#FCA505;
+$color-rojo-primario:#FA4D07;
+$color-bordo-titulos:#7e1a0d;
+$ancho: 20rem;
+$fuente:3rem;
+
+/* Css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*elementos comunes a todo el sitio web*/
+body{
+    background-color: $color-amarillo-primario;
+}
+h1{
+    font-size: $fuente;
+    font-weight: 700;
+}
+
+/*header y sus elementos*/
+
+header{
+    background-color:$color-rojo-primario;
+    margin:0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #logo{
+        margin-left: 2rem;
+        height: 10vh;
+        width: auto;
+        transition: all 1s;
+    }
+    #logo:hover{
+        animation-name: logo-moviendose;
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+
+    nav{            
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        ol{
+            display: flex;
+            flex-direction: row;
+                li{
+                    list-style-type: none;
+                    padding-right: 10px;
+                    a.nav__link--estilo{
+                        color:black;
+                        font-size: $fuente/2.5;
+                        font-weight: 600;
+                        font-style: italic;
+                        text-decoration: none;
+                    }
+                    a.nav__link--estilo:hover{
+                        color:$color-amarillo-secundario;
+                    }
+                }
+        }
+        form{
+            .nav__lupa{
+                height: 0.9rem;
+                width: auto;
+                margin: 0.1rem 0rem -0.1rem 0rem;
+                cursor: pointer;
+                }
+            .nav__buscar{
+                margin-right: 2rem;
+            }
+        }
+    }
+}
+
+/*footer y sus elementos*/
+
+footer{
+    background-color:rgb(209, 208, 208);
+    border-radius: 1rem 10rem 3rem 10rem;
+    padding: 0rem 2rem 1rem 2rem;
+    margin-top: 2rem;
+    .footer__leyenda{
+        font-size: $fuente/3;
+        font-weight: 700;
+    }
+    .footer__acciones{
+        display: flex;
+        flex: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer__acciones__divIcons--icons{
+        height: 3vh;
+        width: auto;
+    }
+    div p{
+        font-size: small;
+    }
+}
+
+/*Tabla de contenido en el main, reseñas y +contenido*/
+
+.tablaReseña{
+    border-style:none;
+    background-image: linear-gradient($color-amarillo-primario,$color-amarillo-secundario);
+    margin: 2em;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 900px;
+    animation-name: aparece_principal;
+    animation-duration: 1.5s;
+
+    .tablaReseña__title{
+        font-size: 3vh;
+        font-weight: 600;
+        .tablaReseña__title__a{
+            text-decoration: none;
+            color:$color-bordo-titulos;
+        }
+    }
+    .tablaReseña__imgContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .tablaReseña__imgContainer__img--estilo{
+        height: $ancho/2;
+        width: auto;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    .tablaReseña__imgContainer__img--estilo:hover{
+        transform: scale(2,2);
+    }
+}
+
+/*Animaciones*/
+
+@keyframes aparece_principal {
+    0%{transform:translateX(-2000px)}
+    50%{transform:translateX(30px)}
+    66%{transform:translateX(-10px)}
+    100%{transform:translateX(0)}
+}
+@keyframes logo-moviendose {
+    0%{transform:rotateZ(0deg)}
+    33%{transform:rotateZ(30deg)}
+    66%{transform:rotateZ(-30deg)}
+    100%{transform:rotateZ(0deg)}
+}

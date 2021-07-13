@@ -1,0 +1,16 @@
+@media only screen and (max-width:1000px) 
+{
+    .tablaReseña{
+        max-width: fit-content;
+    }
+    .tablaReseña__imgContainer{
+        flex-direction: column;
+    }
+    .tablaReseña__imgContainer__img--estilo{
+        height: $ancho;
+        border-radius: 5px;
+    }
+    .article{
+        width: 90%;
+    }
+}

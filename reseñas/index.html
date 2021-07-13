@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Todas las reseñas y recomendaciones que Comicardos tiene para vos.">
+    <meta name="keywords" content="Comic, Manga, Historieta, Reseñas, Podcast, Contenido, Recomendaciones, Arte">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Reseñas - Comicardos!</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <a href="../index.html"><img id ="logo" src="../img/logo.png"></a>
+        <nav>
+            <ol class="nav__links pt-3">
+                <li><a href="../reseñas/" class="nav__link--estilo">Reseñas</a></li>
+                <li><a href="../+contenido/"  class="nav__link--estilo">+Contenido</a></li>
+                <li><a href="../sobrenosotros/" class="nav__link--estilo">Sobre Nosotros</a></li>
+                <li><a href="../contacto/" class="nav__link--estilo">Contacto</a></li>
+            </ol>
+            <form method="GET" action="" class="buscar">
+                <input class="nav__buscador" type="text" name="txt" value placeholder="Buscar">
+                <button><input type="image" src="../img/lupa.png" title="boton enviar" alt="boton enviar" class="nav__lupa"></button>
+            </form>
+        </nav>
+    </header>
+
+    <h1 id="titulo">Reseñas</h1>
+
+    <div class="container-fluid row d-flex justify-content-center">
+    <div class="tablaReseña col-12">
+        <h2>Ordenar por:</h2>
+        <select name="ordenar" id="ordenar">
+            <option value="mercado">Mercado</option>
+            <option value="autor">Autor</option>
+            <option value="género">Género</option>
+            <option value="fecha-de-publicacion">Fecha de publicación</option>
+        </select>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+        <div class="tablaReseña col-12">
+            <h2 class="tablaReseña__title"><a href="reseñas/reseñas.html"  class="tablaReseña__title__a">Últimas reseñas</a></h2>
+            <div class="tablaReseña__imgContainer">
+                <div class="container-fluid">
+                    <a href="artículos/el-gato-negro-y-otras-historias.html"><img src="../reseñas/archivo/img-reseñas/reseña17.0.jpg" alt="Foto que lleva a la reseña de El gato negro y otros cuentos de Alberto Breccia" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="artículos/el-eternauta-2.html"><img src="../reseñas/archivo/img-reseñas/reseña16.0.jpg" alt="Foto que lleva a la reseña de El Eternauta II de Héctor Germán Oesterheld y Francisco Solano López" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="artículos/yo-nen-2.html"><img src="../reseñas/archivo/img-reseñas/reseña15.0.jpg" alt="Foto que lleva a la reseña de Yo nen 2 de Lea Caballero" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="artículos/Manta-2-y-3.html"><img src="../reseñas/archivo/img-reseñas/reseña14.0.jpg" alt="Foto que lleva a la reseña de Manta 3 y 4 de Jonathan Crenovich, Martín Mazzeo y varios dibujantes" class="tablaReseña__imgContainer__img--estilo"></a>
+                </div>
+                <button name="botónSlideParaVerMás" class="btn btn-dark">❯</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+        <div class="tablaReseña col-12">
+            <h2 class="tablaReseña__title">Últimas reseñas</a></h2>
+            <div class="tablaReseña__imgContainer">
+                <div class="container-fluid">
+                    <a href="#"><img src="../reseñas/archivo/img-reseñas/reseña12.0.jpg" alt="Foto que lleva a la reseña de Kick Ass 2 de Mark Millar y Jhon Romita Jr." class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="#"><img src="../reseñas/archivo/img-reseñas/reseña08.0.jpg" alt="Foto que lleva a la reseña de Raven de Kami García y Gabriel Piccolo" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="#"><img src="../reseñas/archivo/img-reseñas/reseña07.0.jpg" alt="Foto que lleva a la reseña de Kick Ass Mark Millar y Jhon Romita Jr." class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="#"><img src="../reseñas/archivo/img-reseñas/reseña04.0.jpg" alt="Foto que lleva a la reseña de Civil War de Mark Millar" class="tablaReseña__imgContainer__img--estilo"></a>
+                </div>
+                <button name="botónSlideParaVerMás" class="btn btn-dark">❯</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+        <div class="tablaReseña col-12">
+            <h2 class="tablaReseña__title">Manga</h2>
+            <div class="tablaReseña__imgContainer">
+                <div class="container-fluid">
+                    <a href="#"><img src="../reseñas/archivo/img-reseñas/reseña13.0.jpg" alt="Foto que lleva a la reseña de Full Metal Alchemist vol.4" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="../reseñas/artículos/el-dia-que-reencarne-en-Yamcha-Dragon-ball-fan.html"><img src="../reseñas/archivo/img-reseñas/reseña09.0.jpg" alt="Foto que lleva a la reseña de El día que reencarné en Yamcha de DragongarowLee" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="#"><img src="../reseñas/archivo/img-reseñas/reseña05.0.jpg" alt="Foto que lleva a la reseña de Super Campeones nº1" class="tablaReseña__imgContainer__img--estilo"></a>
+                    <a href="#"><img src="" alt="" class="tablaReseña__imgContainer__img--estilo"></a>
+                </div>
+                <button name="botónSlideParaVerMás" class="btn btn-dark">❯</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+            <h4 class="footer__leyenda">Todos los derechos reservados.</h4>
+            <div class="footer__acciones">
+            <a href="#logo">Ir arriba</a>
+                <div class="footer__acciones--divIcons">
+                <a href="https://www.instagram.com/comicardos/" target="_blank"><img src="../img/instagram.svg" alt="Instagram de Comicardos" class="footer__acciones__divIcons--icons"></a>
+                <a href="https://twitter.com/comicardos" target="_blank"><img src="../img/gorjeo.svg" alt="Twitter de Comicardos" class="footer__acciones__divIcons--icons"></a>
+                </div>
+            </div>
+            <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+    </footer>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

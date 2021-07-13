@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página con todas las reseñas, podcasts y demás contenido creado por Comicardos junto en un solo lugar y de la manera más clara y accesible.">
+    <meta name="keywords" content="Comic, Manga, Historieta, Reseñas, Podcast, Contenido, Recomendaciones, Arte">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Comicardos!</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <a href="index.html"><img id ="logo" src="img/logo.png"></a>
+      <nav>
+        <ol class="nav__links pt-3">
+          <li><a href="reseñas/" class="nav__link--estilo">Reseñas</a></li>
+          <li><a href="+contenido/"  class="nav__link--estilo">+Contenido</a></li>
+          <li><a href="sobrenosotros/" class="nav__link--estilo">Sobre Nosotros</a></li>
+          <li><a href="contacto/" class="nav__link--estilo">Contacto</a></li>
+        </ol>
+        <form method="GET" action="" class="buscar">
+          <input class="nav__buscador" type="text" name="txt" value placeholder="Buscar">
+          <button><input class="nav__lupa" type="image" src="img/lupa.png" title="boton enviar" alt="boton enviar"></button>
+        </form>
+    </nav>
+  </header>
+
+  <div id="carouselExampleCaptions" class="carousel slide container-fluid px-0" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/fondo-sectionfinal.png" class="d-block w-100" alt="..." height="400vh" width="auto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Historieta nacional, cómics y más</h5>
+              <p>¿Qué hacemos? 
+              Te traemos las reseñas más interesantes de toda la web.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/fondo-sectionfinal.png" class="d-block w-100" alt="..." height="400vh" width="auto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>¡Para que te mandes a leer!</h5>
+              <p>¿Cómo son las reseñas? 
+              Lo más completas posibles. Con opiniones sinceras, datos interesantes, interiores y ¡mucho más!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/fondo-sectionfinal.png" class="d-block w-100" alt="..." height="400vh" width="auto">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>¡Y aún hay más!</h5>
+              <p>También tenemos videos de compras, guías de lectura e incluso coordinamos un club de lectura. ¡No te quedes afuera!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+  </div>
+
+  <div class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <div class="tablaReseña col-12">
+          <h2 class="tablaReseña__title"><a href="reseñas/reseñas.html"  class="tablaReseña__title__a">Últimas reseñas</a></h2>
+          <div class="tablaReseña__imgContainer">
+            <div class="container-fluid">
+              <a href="reseñas/artículos/el-gato-negro-y-otras-historias.html"><img src="reseñas/archivo/img-reseñas/reseña17.0.jpg" alt="Foto que lleva a la reseña de El gato negro y otros cuentos de Alberto Breccia" class="tablaReseña__imgContainer__img--estilo"></a>
+              <a href="reseñas/artículos/el-eternauta-2.html"><img src="reseñas/archivo/img-reseñas/reseña16.0.jpg" alt="Foto que lleva a la reseña de El Eternauta II de Héctor Germán Oesterheld y Francisco Solano López" class="tablaReseña__imgContainer__img--estilo"></a>
+              <a href="reseñas/artículos/yo-nen-2.html"><img src="reseñas/archivo/img-reseñas/reseña15.0.jpg" alt="Foto que lleva a la reseña de Yo nen 2 de Lea Caballero" class="tablaReseña__imgContainer__img--estilo"></a>
+              <a href="reseñas/artículos/Manta-2-y-3.html"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="reseñas/archivo/img-reseñas/reseña14.0.jpg" alt="Foto que lleva a la reseña de Manta 3 y 4 de Jonathan Crenovich, Martín Mazzeo y varios dibujantes" class="tablaReseña__imgContainer__img--estilo"></a>
+            </div>
+            <button name="botónSlideParaVerMás" class="btn btn-dark">❯</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <div class="tablaReseña col-12 ">
+          <h2 class="tablaReseña__title"><a href="+contenido/+contenido.html" class="tablaReseña__title__a">+Contenido</a></h2>
+          <div class="tablaReseña__imgContainer">
+            <div class="container-fluid">
+              <a href="+contenido/artículos/club-de-lectura-historieta-cero-mes-9.html"><img src="+contenido/archivo/img-+contenido/Club-de-lectura9.0.jpg" alt="Foto que lleva al posteo del Club de lectura 9na lectura Manuel Loza" class="tablaReseña__imgContainer__img--estilo"></a>
+              <a href="+contenido/artículos/recomendaciones-y-lecturas-2.html"><img src="+contenido/archivo/img-+contenido/Compras-y-recos2.0.jpg" alt="Foto que lleva a compras y recomendaciones nº2" class="tablaReseña__imgContainer__img--estilo"></a>
+              <a href="#"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="+contenido/archivo/img-+contenido/Compras-y-recos1.0.jpg" alt="Foto que lleva a compras y recomendaciones" class="tablaReseña__imgContainer__img--estilo"></a>
+              <a href="#"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="+contenido/archivo/img-+contenido/sorteo01.0.jpg" alt="Foto que lleva a primer sorteo"class="tablaReseña__imgContainer__img--estilo"></a>
+            </div>
+            <button name="botónSlideParaVerMás" class="btn btn-dark">❯</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Error!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Página en mantenimiento.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <footer>
+        <h4 class="footer__leyenda">Todos los derechos reservados.</h4>
+        <div class="footer__acciones">
+          <a href="#logo">Ir arriba</a>
+            <div class="footer_acciones-divIcons">
+            <a href="https://www.instagram.com/comicardos/" target="_blank"><img src="img/instagram.svg" alt="Instagram de Comicardos" class="footer__acciones__divIcons--icons"></a>
+            <a href="https://twitter.com/comicardos" target="_blank"><img src="img/gorjeo.svg" alt="Twitter de Comicardos" class="footer__acciones__divIcons--icons"></a>
+            </div>
+        </div>
+        <div><p>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></p></div>
+  </footer>
+
+<script src="bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

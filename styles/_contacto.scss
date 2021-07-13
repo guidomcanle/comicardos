@@ -1,0 +1,34 @@
+div.contacto__logo--estilo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vh;
+    animation-name: aparece_principal;
+    animation-duration: 1s;
+
+    .fieldset--centrador{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient($color-amarillo-primario,$color-amarillo-secundario);
+        padding: 3rem;
+    }
+    .fieldset__form--estilo{
+        line-height: 2;
+        text-align: justify;
+        white-space: pre-line;
+    }
+    .fieldset__form__input{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.btn{
+    font-size: 1.5vh;
+}
