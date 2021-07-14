@@ -11866,6 +11866,21 @@ div.contacto__logo--estilo {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 50vh;
+  width: auto;
+}
+
+.contendorContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .fieldset {
@@ -12001,7 +12016,7 @@ div.contacto__logo--estilo {
   margin-bottom: 1vh;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1000px) {
   .tablaReseña__imgContainer__img--estilo {
     height: 20rem;
     border-radius: 5px;
@@ -12009,12 +12024,6 @@ div.contacto__logo--estilo {
   .article {
     width: 90%;
   }
-  header nav ol li a.nav__link--estilo {
-    font-size: medium;
-  }
-}
-
-@media only screen and (max-width: 870px) {
   header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12044,19 +12053,35 @@ div.contacto__logo--estilo {
             flex-direction: row;
   }
   header nav ol li a.nav__link--estilo {
-    font-size: small;
+    font-size: medium;
   }
   header nav form {
     margin-bottom: 1rem;
   }
+  div.contacto__logo--estilo {
+    height: 40vh;
+    width: auto;
+    margin: -8rem 0;
+  }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   header nav ol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  header nav ol li a.nav__link--estilo {
+    font-size: small;
+  }
+  div.contacto__logo--estilo {
+    height: 30vh;
+    width: auto;
+    margin: -2rem 0;
+  }
+  h1, .h1 {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
