@@ -11781,6 +11781,14 @@ footer div p {
   margin-top: 7rem;
 }
 
+.carrousel__title {
+  font-size: 2.5vh;
+}
+
+.carrousel__text {
+  font-size: 1.8vh;
+}
+
 h1, .h1 {
   color: #7e1a0d;
   margin-left: 2rem;
