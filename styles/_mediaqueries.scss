@@ -37,6 +37,11 @@
         width: auto;
         margin: -8rem 0;
     }
+
+    .nosotros__img--estilo{
+        height: 480px;
+        width: auto;
+    }
 }
 
 @media only screen and (max-width:550px) {
@@ -44,11 +49,6 @@
         nav{
             ol{
                 flex-direction: column;
-                li{
-                    a.nav__link--estilo{
-                        font-size: small;
-                    }
-                }
             }
         }
     }
@@ -58,6 +58,15 @@
         margin: -2rem 0;
     }
     h1{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+        font-size: 4vh;
+    }
+
+    .nosotros__img--estilo{
+        height: 300px;
+        width: auto;
     }
 }

@@ -6,7 +6,7 @@
         padding: 1rem;
         text-align: justify;
         font-size: 2vh;
-        line-height: 2vh;
+        line-height: 3vh;
         background-image: linear-gradient($color-amarillo-primario,$color-amarillo-secundario);
         animation-name: aparece_principal;
         animation-duration: 1.5s;
@@ -16,20 +16,22 @@
         animation-name: aparece_principal;
         animation-duration: 1.5s;
         font-size: 3vh;
-        line-height: 2vh;
+        line-height: 3vh;
     
     }
 }
 
 .nosotros{
-    margin: 1rem 0rem 2rem 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     line-height: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 80rem;
     font-size: 2vh;
-    line-height: 2vh;
+    line-height: 3vh;
     animation-name: aparece_principal;
     animation-duration: 1.5s;
     .nosotros__integrante-1,
@@ -45,9 +47,7 @@
         animation-duration: 1.5s;
     }
     .nosotros__img--estilo{
-        height: 50%;
-        width: auto;
         border-radius: 5px;
-        margin-bottom: 1vh;
+        margin-bottom: 1rem;
     }
 }

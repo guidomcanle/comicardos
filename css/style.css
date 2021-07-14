@@ -11517,6 +11517,7 @@ body {
 h1, .h1 {
   font-size: 3rem;
   font-weight: 700;
+  margin-top: 1rem;
 }
 
 /*header y sus elementos*/
@@ -11538,7 +11539,7 @@ header {
 }
 
 header #logo {
-  margin-left: 2rem;
+  margin-left: 1rem;
   height: 10vh;
   width: auto;
   -webkit-transition: all 1s;
@@ -11841,7 +11842,7 @@ h2, .h2 {
 
 .article .article__text--estilos {
   font-size: 2vh;
-  line-height: 2vh;
+  line-height: 3vh;
   text-align: justify;
   white-space: pre-line;
 }
@@ -11943,7 +11944,7 @@ div.contacto__logo--estilo {
   padding: 1rem;
   text-align: justify;
   font-size: 2vh;
-  line-height: 2vh;
+  line-height: 3vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FFBE01), to(#FCA505));
   background-image: linear-gradient(#FFBE01, #FCA505);
   -webkit-animation-name: aparece_principal;
@@ -11959,11 +11960,13 @@ div.contacto__logo--estilo {
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
   font-size: 3vh;
-  line-height: 2vh;
+  line-height: 3vh;
 }
 
 .nosotros {
-  margin: 1rem 0rem 2rem 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   line-height: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11977,7 +11980,7 @@ div.contacto__logo--estilo {
           justify-content: center;
   max-width: 80rem;
   font-size: 2vh;
-  line-height: 2vh;
+  line-height: 3vh;
   -webkit-animation-name: aparece_principal;
           animation-name: aparece_principal;
   -webkit-animation-duration: 1.5s;
@@ -12010,10 +12013,8 @@ div.contacto__logo--estilo {
 }
 
 .nosotros .nosotros__img--estilo {
-  height: 50%;
-  width: auto;
   border-radius: 5px;
-  margin-bottom: 1vh;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -12063,6 +12064,10 @@ div.contacto__logo--estilo {
     width: auto;
     margin: -8rem 0;
   }
+  .nosotros__img--estilo {
+    height: 480px;
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -12072,16 +12077,28 @@ div.contacto__logo--estilo {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  header nav ol li a.nav__link--estilo {
-    font-size: small;
-  }
   div.contacto__logo--estilo {
     height: 30vh;
     width: auto;
     margin: -2rem 0;
   }
   h1, .h1 {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem;
+    font-size: 4vh;
+  }
+  .nosotros__img--estilo {
+    height: 300px;
+    width: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
