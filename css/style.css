@@ -12001,18 +12001,7 @@ div.contacto__logo--estilo {
   margin-bottom: 1vh;
 }
 
-@media only screen and (max-width: 1000px) {
-  .tablaReseña {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-  }
-  .tablaReseña__imgContainer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+@media only screen and (max-width: 950px) {
   .tablaReseña__imgContainer__img--estilo {
     height: 20rem;
     border-radius: 5px;
@@ -12020,22 +12009,50 @@ div.contacto__logo--estilo {
   .article {
     width: 90%;
   }
+  header nav ol li a.nav__link--estilo {
+    font-size: medium;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 870px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #logo {
+    margin: -2rem -2rem -3rem -2rem;
+    height: 15vh;
+    width: auto;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
   header nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
   header nav ol {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header nav ol li a.nav__link--estilo {
+    font-size: small;
+  }
+  header nav form {
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  header nav ol {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

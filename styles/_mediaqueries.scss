@@ -1,11 +1,5 @@
-@media only screen and (max-width:1000px) 
-{
-    .tablaReseña{
-        max-width: fit-content;
-    }
-    .tablaReseña__imgContainer{
-        flex-direction: column;
-    }
+
+@media only screen and (max-width:950px) {
     .tablaReseña__imgContainer__img--estilo{
         height: $ancho;
         border-radius: 5px;
@@ -13,17 +7,51 @@
     .article{
         width: 90%;
     }
-}
-@media only screen and (max-width:768px) {
-    
-    header{
-            nav{
-                display: flex;
-                flex-direction: column;
-                ol{
-                    display: flex;
-                    flex-direction: column;
+header{
+    nav{
+        ol{
+            li{
+                a.nav__link--estilo{
+                    font-size:medium;
+                }
             }
         }
     }
+}
+}
+
+@media only screen and (max-width:870px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        #logo{
+            margin: -2rem -2rem -3rem -2rem;
+            height: 15vh;
+            width: auto;
+            transition: all 1s;
+        }
+            nav{
+                flex-direction: column;
+                ol{
+                    flex-direction: row;
+                    li{
+                        a.nav__link--estilo{
+                            font-size: small;
+                        }
+                    }
+                }
+                form{
+                    margin-bottom: 1rem;
+                }
+        }
+    }
+}
+@media only screen and (max-width:450px) {
+    header{
+            nav{
+                ol{
+                    flex-direction: column;
+        }
+    }
+}
 }
