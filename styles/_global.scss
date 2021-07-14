@@ -92,7 +92,7 @@ footer{
     padding: 0rem 2rem 1rem 2rem;
     margin-top: 2rem;
     .footer__leyenda{
-        font-size: $fuente/3;
+        font-size: 1.7vh;
         font-weight: 700;
     }
     .footer__acciones{
@@ -104,6 +104,9 @@ footer{
     .footer__acciones__divIcons--icons{
         height: 3vh;
         width: auto;
+    }
+    .footer__acciones__text{
+        font-size: 1.4vh;
     }
     div p{
         font-size: small;

@@ -11614,7 +11614,7 @@ footer {
 }
 
 footer .footer__leyenda {
-  font-size: 1rem;
+  font-size: 1.7vh;
   font-weight: 700;
 }
 
@@ -11636,6 +11636,10 @@ footer .footer__acciones {
 footer .footer__acciones__divIcons--icons {
   height: 3vh;
   width: auto;
+}
+
+footer .footer__acciones__text {
+  font-size: 1.4vh;
 }
 
 footer div p {
