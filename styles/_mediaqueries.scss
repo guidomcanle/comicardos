@@ -14,3 +14,16 @@
         width: 90%;
     }
 }
+@media only screen and (max-width:768px) {
+    
+    header{
+            nav{
+                display: flex;
+                flex-direction: column;
+                ol{
+                    display: flex;
+                    flex-direction: column;
+            }
+        }
+    }
+}
