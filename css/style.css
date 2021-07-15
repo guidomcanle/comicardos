@@ -11838,6 +11838,8 @@ h2, .h2 {
   height: 30rem;
   width: auto;
   border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .article .article__text--estilos {
@@ -12099,6 +12101,12 @@ div.contacto__logo--estilo {
   .nosotros__img--estilo {
     height: 300px;
     width: auto;
+  }
+  .article .article__img--estilos {
+    height: 25vh;
+  }
+  .article .article__video--estilos {
+    height: 25vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
