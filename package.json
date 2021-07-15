@@ -1,0 +1,20 @@
+{
+  "name": "comicardos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comicardosSass": "sass --watch styles/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidomcanle/comicardos.git"
+  },
+  "author": "Guido M. Canle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guidomcanle/comicardos/issues"
+  },
+  "homepage": "https://github.com/guidomcanle/comicardos#readme"
+}
