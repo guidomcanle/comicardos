@@ -72,14 +72,20 @@ header{
                 }
         }
         form{
+            .nav__btn{
+                background-color: $color-amarillo-secundario;
+                margin-bottom: 0.1rem;
+            }
             .nav__lupa{
-                height: 0.9rem;
+                height: 1.5rem;
                 width: auto;
-                margin: 0.1rem 0rem -0.1rem 0rem;
+                margin: -0.5rem;
                 cursor: pointer;
                 }
             .nav__buscar{
-                margin-right: 2rem;
+                border: solid $color-amarillo-secundario;
+                padding-left: 0.5rem;
+                margin-right: 0.5rem;
             }
         }
     }
