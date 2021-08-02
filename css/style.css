@@ -10877,6 +10877,7 @@ footer div p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .tablaReseña .tablaReseña__imgContainer__img--estilo {
   height: 10rem;
@@ -11126,6 +11127,18 @@ div.contacto__logo--estilo {
   .nosotros__img--estilo {
     height: 480px;
     width: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .tablaReseña {
+    width: auto;
+  }
+  .tablaReseña .tablaReseña__title {
+    text-align: center;
+  }
+  .tablaReseña .tablaReseña__imgContainer {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media only screen and (max-width: 550px) {

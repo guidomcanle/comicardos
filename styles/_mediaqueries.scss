@@ -47,6 +47,20 @@
     }
 }
 
+@media only screen and (max-width:800px){
+    
+    .tablaReseña{
+        width: auto;
+        .tablaReseña__title{
+            text-align: center;
+        }
+        .tablaReseña__imgContainer{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
 @media only screen and (max-width:550px) {
     header{
         #logo{

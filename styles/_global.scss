@@ -144,6 +144,7 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
     }
     .tablaReseña__imgContainer__img--estilo{
         height: $ancho/2;
