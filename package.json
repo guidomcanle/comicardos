@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/guidomcanle/comicardos/issues"
   },
-  "homepage": "https://github.com/guidomcanle/comicardos#readme"
+  "homepage": "https://github.com/guidomcanle/comicardos#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
 }
