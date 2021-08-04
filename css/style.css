@@ -11177,7 +11177,23 @@ div.contacto__logo--estilo {
   }
 }
 .error404__texto {
-  margin: 2rem;
+  background-color: #FA4D07;
+  color: black;
+  padding: 2rem;
+  margin-top: 14rem;
+  margin-bottom: 19rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: all 1s;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.error404__texto:hover {
+  transform: scale(2, 2);
+  color: black;
+  color: #FCA505;
 }
 
 /*# sourceMappingURL=style.css.map */
